@@ -263,6 +263,15 @@
   --ggts-glow: radial-gradient(circle at 8% 23%, color-mix(in srgb, #ffc6d9 48%, transparent), transparent 29%), radial-gradient(circle at 95% 72%, color-mix(in srgb, #f9bed2 40%, transparent), transparent 31%);
   --ggts-title-shadow: 0 .3cqw 0 #ffffff;
   --ggts-card-shadow: 0 1.6cqw 4cqw color-mix(in srgb, #8e2c52 13%, transparent);
+  --ggts-white: #ffffff;
+  --ggts-cream: #fffafb;
+  --ggts-bezel: #2c0d1c;
+  --ggts-bezel-edge: #6b2a49;
+  --ggts-bar: #f6e9ee;
+  --ggts-muted: #b99aa8;
+  --ggts-full: #efe5e9;
+  --ggts-device-shadow: 0 2.4cqw 5cqw color-mix(in srgb, #5b1532 26%, transparent), 0 .5cqw 1.2cqw color-mix(in srgb, #5b1532 18%, transparent);
+  --ggts-photo-fade: linear-gradient(180deg, transparent 45%, color-mix(in srgb, #2c0d1c 55%, transparent));
 }
 /* GGS Feed slide 62 (3:4): "We are open" over the owner's treatment photo. */
 .ggop-root {
