@@ -308,9 +308,58 @@ button { cursor: pointer; }
   .preview-only .doc-page { min-height: auto; }
 }
 
+
+.top-navigation { display: flex; align-items: center; gap: 5px; margin-left: auto; margin-right: 12px; min-width: 0; }
+.app-nav-link {
+  display: inline-flex; min-height: 34px; align-items: center; justify-content: center; padding: 0 12px;
+  border-radius: 7px; color: #745d45; font-size: 12px; font-weight: 600; text-decoration: none; white-space: nowrap;
+  transition: background .16s ease, color .16s ease;
+}
+.app-nav-link:hover { background: #f1e8da; color: #553d27; }
+.app-nav-link.is-active { background: #805538; color: #fffaf3; }
+
+/* Surat permohonan (one A4 letter) */
+.letter-page { font-size: 13px; line-height: 1.5; }
+.letter-kop { display: flex; align-items: center; gap: 14px; padding-bottom: 12px; margin-bottom: 18px; border-bottom: 2.5px double #88674c; }
+.letter-kop-logo { width: 52px; height: 52px; object-fit: contain; flex: none; }
+.letter-kop-copy { display: grid; gap: 2px; min-width: 0; }
+.letter-kop-copy strong { color: #3b2c1f; font: 700 20px/1.1 var(--doc-font); letter-spacing: .04em; }
+.letter-kop-copy span { color: #625c52; font: 10px/1.4 var(--doc-font); }
+.letter-meta { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 16px; }
+.letter-meta-list { margin: 0; display: grid; gap: 1px; }
+.letter-meta-list > div, .letter-details > div { display: grid; grid-template-columns: 74px 12px minmax(0, 1fr); }
+.letter-meta-list dt, .letter-meta-list dd, .letter-details dt, .letter-details dd { margin: 0; min-width: 0; }
+.letter-date { margin: 0; white-space: nowrap; }
+.letter-to { margin-bottom: 16px; }
+.letter-to p { margin: 0; }
+.letter-to-place { text-decoration: underline; }
+.letter-body p { margin: 0 0 9px; text-align: justify; text-justify: inter-word; }
+.letter-details { margin: 2px 0 11px 18px; display: grid; gap: 3px; }
+.letter-details > div { grid-template-columns: 150px 12px minmax(0, 1fr); }
+.letter-facilities { margin: 0; padding-left: 17px; list-style: decimal; }
+.letter-facilities li { margin: 0; }
+.letter-sign { margin: 18px 0 0 auto; width: 250px; text-align: center; break-inside: avoid; }
+.letter-sign p { margin: 0; }
+.letter-sign-space { height: 74px; }
+.letter-sign-name { font-weight: 700; text-decoration: underline; }
+.letter-contact { margin: auto 0 0; padding-top: 9px; border-top: 1px solid #e2ded7; color: #766f63; font: 9.5px/1.4 var(--doc-font); }
+
+@media (max-width: 600px) {
+  .brand-name { display: none; }
+  .top-navigation { margin-right: 8px; gap: 3px; }
+  .app-nav-link { padding: 0 9px; font-size: 11px; }
+  .letter-page { font-size: 13px; }
+  .letter-meta { flex-direction: column-reverse; gap: 8px; }
+  .letter-details { margin-left: 0; }
+  .letter-details > div { grid-template-columns: 1fr; }
+  .letter-details > div > span { display: none; }
+  .letter-details dt { font-weight: 700; }
+  .letter-sign { margin-top: 22px; }
 }
 
-/* Print: only the four A4 MoU pages. Other sub-apps' print rules may still be loaded
+}
+
+/* Print: only the A4 document pages (MoU or letter). Other sub-apps' print rules may still be loaded
    after client-side navigation, so the MoU reasserts its page size and visibility. */
 @page mou-a4 { size: A4 portrait; margin: 0; }
 @media print {
@@ -319,6 +368,17 @@ button { cursor: pointer; }
   }
   .mou-scope .print-root, .mou-scope .print-root * { visibility: visible !important; }
   .mou-scope .print-root .doc-page { page: mou-a4; }
+  .mou-scope .print-root .letter-page { padding: 12mm 20mm 10mm; font-size: 10.5pt; line-height: 1.42; }
+  .mou-scope .print-root .letter-kop { margin-bottom: 5mm; padding-bottom: 3mm; }
+  .mou-scope .print-root .letter-meta, .mou-scope .print-root .letter-to { margin-bottom: 4mm; }
+  .mou-scope .print-root .letter-body p { margin-bottom: 2.2mm; }
+  .mou-scope .print-root .letter-details { margin: 0 0 2.5mm 5mm; gap: .6mm; }
+  .mou-scope .print-root .letter-details > div { grid-template-columns: 42mm 3mm minmax(0, 1fr); }
+  .mou-scope .print-root .letter-sign { margin-top: 5mm; width: 70mm; }
+  .mou-scope .print-root .letter-sign-space { height: 22mm; }
+  .mou-scope .print-root .letter-kop-copy strong { font-size: 17pt; }
+  .mou-scope .print-root .letter-kop-copy span { font-size: 8.5pt; }
+  .mou-scope .print-root .letter-contact { font-size: 8pt; }
 }
 
 @keyframes mou-fade-in { from { opacity: 0 } to { opacity: 1 } }

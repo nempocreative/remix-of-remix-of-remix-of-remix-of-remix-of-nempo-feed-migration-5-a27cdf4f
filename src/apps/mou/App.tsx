@@ -1,7 +1,9 @@
 import { type ReactNode } from 'react';
 import { Printer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from '@tanstack/react-router';
 import mark from '@/assets/mou/nempo-mark.png.asset.json';
+import { SuratArtCenterDocument } from '@/apps/mou/pages/surat-art-center';
 
 const totalPages = 4;
 
@@ -389,13 +391,31 @@ function DocPageFooter({ page }: { page: number }) {
   );
 }
 
-function AppHeader() {
+export type MouPageKey = 'mou' | 'surat-art-center';
+
+function AppHeader({ active }: { active: MouPageKey }) {
   return (
     <header className="topbar no-print">
       <div className="brand">
         <img className="brand-logo" src={mark.url} alt="Logo Nempo" />
-        <div>Nempo</div>
+        <div className="brand-name">Nempo</div>
       </div>
+      <nav className="top-navigation" aria-label="Dokumen">
+        <Link
+          to="/nempo-mou"
+          className={`app-nav-link${active === 'mou' ? ' is-active' : ''}`}
+          aria-current={active === 'mou' ? 'page' : undefined}
+        >
+          MoU GGS
+        </Link>
+        <Link
+          to="/nempo-mou/surat-art-center"
+          className={`app-nav-link${active === 'surat-art-center' ? ' is-active' : ''}`}
+          aria-current={active === 'surat-art-center' ? 'page' : undefined}
+        >
+          Surat Art Center
+        </Link>
+      </nav>
       <div className="top-actions">
         <Button
           variant="unstyled"
@@ -403,7 +423,7 @@ function AppHeader() {
           className="button primary"
           onClick={() => window.print()}
           title="Cetak atau simpan sebagai PDF"
-          aria-label="Cetak atau simpan MoU sebagai PDF"
+          aria-label={active === 'mou' ? 'Cetak atau simpan MoU sebagai PDF' : 'Cetak atau simpan surat sebagai PDF'}
         >
           <Printer size={14} />
           <span>Simpan PDF</span>
@@ -413,24 +433,25 @@ function AppHeader() {
   );
 }
 
-function MouPage() {
+function DocumentPage({ active }: { active: MouPageKey }) {
+  const Doc = active === 'surat-art-center' ? SuratArtCenterDocument : MouDocument;
   return (
     <div className="app-shell">
-      <AppHeader />
+      <AppHeader active={active} />
 
       <main className="workspace preview-only no-print">
         <div className="preview-column">
-          <div className="paper-wrap"><MouDocument /></div>
+          <div className="paper-wrap"><Doc /></div>
         </div>
       </main>
 
       <div className="print-root" style={{ display: 'none' }} aria-hidden="true">
-        <MouDocument />
+        <Doc />
       </div>
     </div>
   );
 }
 
-export default function App() {
-  return <div className="mou-scope"><MouPage /></div>;
+export default function App({ page = 'mou' }: { page?: MouPageKey }) {
+  return <div className="mou-scope"><DocumentPage active={page} /></div>;
 }

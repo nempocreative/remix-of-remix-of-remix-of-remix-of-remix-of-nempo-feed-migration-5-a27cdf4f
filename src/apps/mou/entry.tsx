@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
-import App from './App';
+import App, { type MouPageKey } from './App';
 import './index.css';
 
 const FONT = 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap';
 
-export default function Entry() {
+export default function Entry({ page = 'mou' }: { page?: MouPageKey }) {
   useEffect(() => {
     if (document.querySelector(`link[href="${FONT}"]`)) return;
     const link = document.createElement('link');
@@ -13,5 +13,5 @@ export default function Entry() {
     link.crossOrigin = 'anonymous';
     document.head.appendChild(link);
   }, []);
-  return <App />;
+  return <App page={page} />;
 }
