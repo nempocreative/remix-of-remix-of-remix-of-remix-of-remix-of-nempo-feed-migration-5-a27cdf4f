@@ -1,5 +1,5 @@
 import type { RefObject } from 'react';
-import { BadgePercent, CalendarCheck, CalendarDays, Gift, Instagram, Sparkles } from 'lucide-react';
+import { BadgePercent, CalendarCheck, CalendarDays, Gift, Instagram, Scissors } from 'lucide-react';
 import ggsWatermark from '@/assets/ggs-header-footer-v2.png.asset.json';
 import webHome from '@/assets/ggs-feed-61-web-beranda.webp.asset.json';
 import webNail from '@/assets/ggs-feed-61-web-nail-art-panggilan.webp.asset.json';
@@ -7,7 +7,7 @@ import { GGS_TEASER_SPESIAL, GGS_TEASER_SPESIAL_TEXT } from './ggs-teaser-spesia
 import './GgsTeaserSpesialSlide.css';
 
 /** No crown icons here: the header overlay's logo already carries the GGS crown. */
-const BENEFIT_ICONS = [CalendarCheck, CalendarDays, BadgePercent, Gift, Sparkles] as const;
+const BENEFIT_ICONS = [CalendarCheck, CalendarDays, BadgePercent, Gift, Scissors] as const;
 const SCREEN_SRC = { home: webHome.url, nail: webNail.url } as const;
 
 /** GGS Feed slide 61: "Something Spesial" teaser with the owner's own screenshots of the GGS website. */
