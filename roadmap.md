@@ -123,3 +123,4 @@
 - [x] GGS Cowok slide 11: website sneak-peek like GGS Feed slide 61 (two real web screenshots on tilted tablets, men's navy/yellow style, few crowns, sharp PNG download)
 - [x] MoU Nempo × GGS Beauty from github.com/nempocreative/organizer at /nempo-mou (MoU only, at the owner's request), printable as 4 A4 pages
 - [x] NEMPO MoU: new tab with the letter to the head of Disparbud Garut asking to borrow Gedung Art Center for Pasanggiri Road to Pasar Seni 2027 (30–31 Dec 2026, 07.00–22.00, no attachment), printable A4
+- [x] NEMPO Feed slide 52: shrink text/shapes to fit the frame, remove the gold ribbon confetti, re-record MP4

@@ -3,7 +3,8 @@ import { Clock3, Disc3, Drama, MapPin, Phone } from 'lucide-react';
 import gscLogo from '@/assets/good-story-cafe-logo.jpg';
 import saduliLogo from '@/assets/saduli-ragap-entertainment-logo-keyed.png';
 import bgImage from '@/assets/nempo-feed-slide-50-bg.jpg';
-import frameImage from '@/assets/nempo-feed-50-stage-truss-frame.webp';
+// Slide 50's truss frame with the gold ribbon confetti painted out (owner asked for no ribbons on this slide).
+import frameAsset from '@/assets/nempo-feed-52-stage-frame-no-ribbons.webp.asset.json';
 import titleLettering from '@/assets/nempo-feed-50-title-graffiti-dj-large.png';
 import { nempoHariIni as P } from './nempo-hari-ini';
 import { STAGE_LAMPS, STAGE_SPOTS, stageLightStyle } from './nempo-stage-lights';
@@ -30,8 +31,8 @@ export function NempoHariIniSlide({ exportRef }: { exportRef?: RefObject<HTMLEle
           <span key={i} className={`nar-beam nar-beam--${l.tone}`} style={stageLightStyle(l)} />
         ))}
       </span>
-      <img className="nar-frame" src={frameImage} alt="" aria-hidden="true" width={1152} height={1536} draggable={false} />
-      <img className="nar-frame-chase" src={frameImage} alt="" aria-hidden="true" width={1152} height={1536} draggable={false} />
+      <img className="nar-frame" src={frameAsset.url} alt="" aria-hidden="true" width={1152} height={1536} draggable={false} />
+      <img className="nar-frame-chase" src={frameAsset.url} alt="" aria-hidden="true" width={1152} height={1536} draggable={false} />
       <span className="nar-lamps" aria-hidden="true">
         {STAGE_LAMPS.map((l, i) => (
           <span key={i} className={`nar-lamp nar-lamp--${l.tone}`} style={stageLightStyle(l)} />
