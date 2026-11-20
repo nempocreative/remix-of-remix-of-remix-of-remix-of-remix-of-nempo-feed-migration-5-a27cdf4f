@@ -520,6 +520,27 @@
   --ggm11-date-shadow: .3cqw .3cqw 0 #c69a4a, .6cqw .6cqw 0 #ba8e40, .9cqw .9cqw 0 #ae8237, 1.2cqw 1.2cqw 0 #a1762f, 1.5cqw 1.5cqw 0 #8e6424, 2cqw 2.8cqw 3.4cqw color-mix(in srgb, #2a1a08 28%, transparent);
 }
 
+/* GGS Cowok slide 11 (3:4): slide 61's website teaser in the men's navy and brass. */
+.ggmt-root {
+  --ggmt-bg: #efe0c8;
+  --ggmt-ink: #15202c;
+  --ggmt-ink-soft: #5a4a33;
+  --ggmt-white: #ffffff;
+  --ggmt-cream: #fbf6ee;
+  --ggmt-brass: #c69a4a;
+  --ggmt-brass-deep: #8e6424;
+  --ggmt-brass-light: #e2c38a;
+  --ggmt-card: color-mix(in srgb, #fbf6ee 94%, transparent);
+  --ggmt-card-line: color-mix(in srgb, #c69a4a 45%, #ffffff);
+  --ggmt-line: color-mix(in srgb, #8e6424 22%, transparent);
+  --ggmt-glow: radial-gradient(circle at 50% 22%, color-mix(in srgb, #fff8ec 70%, transparent), transparent 46%), radial-gradient(circle at 92% 74%, color-mix(in srgb, #fff8ec 40%, transparent), transparent 30%);
+  --ggmt-title-shadow: .3cqw .3cqw 0 #c69a4a, .6cqw .6cqw 0 #a1762f;
+  --ggmt-card-shadow: 0 1.2cqw 2.8cqw color-mix(in srgb, #2a1a08 22%, transparent);
+  --ggmt-bezel: #15202c;
+  --ggmt-bezel-edge: #3b4a5c;
+  --ggmt-device-shadow: 0 2.4cqw 5cqw color-mix(in srgb, #2a1a08 30%, transparent), 0 .5cqw 1.2cqw color-mix(in srgb, #2a1a08 20%, transparent);
+}
+
 .ggmc-root {
   --ggmc-paper: #f5eee2;
   --ggmc-ink: #17150f;

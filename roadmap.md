@@ -120,4 +120,4 @@
 - [x] GGS Feed slide 62: "We are open" di atas foto treatment, nama GGS Beauty; baris merek dipindah ke atas ajakan supaya tidak tertutup logo; PNG 3× direkam + uji unduhan
 
 - [x] GGS Feed slide 61: add a clean snippet of the GGS website (homepage + Nail Art Panggilan page) and prettify the slide; recapture the PNG download (address bar left empty: no website yet)
-- [ ] GGS Cowok slide 11: website sneak-peek like GGS Feed slide 61 (two real web screenshots on tilted tablets, men's navy/yellow style, few crowns, sharp PNG download)
+- [x] GGS Cowok slide 11: website sneak-peek like GGS Feed slide 61 (two real web screenshots on tilted tablets, men's navy/yellow style, few crowns, sharp PNG download)

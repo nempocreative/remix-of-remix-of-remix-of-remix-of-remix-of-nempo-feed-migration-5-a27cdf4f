@@ -226,6 +226,8 @@ import { GgsModelRambutSlide } from './components/GgsModelRambutSlide';
 import ggsModelRambutVideo from '@/assets/ggs-feed-59-pilih-model-rambut.mp4.asset.json';
 import { GGS_SANTA_HAIR, GGS_SANTA_HAIR_SLIDES, type GgsSantaHairSlideNumber } from './components/ggs-santa-hair';
 import { GgsMenUndanganSlide } from './components/GgsMenUndanganSlide';
+import { GgsMenTeaserSpesialSlide } from './components/GgsMenTeaserSpesialSlide';
+import ggsMenTeaserSpesialPng from '@/assets/ggs-men-11-something-spesial.png.asset.json';
 import ggsMenUndanganPng from '@/assets/ggs-men-10-undangan-malming.png.asset.json';
 import ggsUndanganNailPng from '@/assets/ggs-feed-51-undangan-nail-art.png.asset.json';
 import ggsTerapisKenalanPng from '@/assets/ggs-feed-47-kenalan-terapis.png.asset.json';
@@ -3153,7 +3155,7 @@ function App() {
   const [activeSlide, setActiveSlide] = useState<FeedSlide>(32);
   const [activeClientSlide, setActiveClientSlide] = useState<ClientSlide>(3);
   const [garutBeansSlide, setGarutBeansSlide] = useState<GarutBeansSlide>(1);
-  const [ggsMenSlide, setGgsMenSlide] = useState<1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10>(1);
+  const [ggsMenSlide, setGgsMenSlide] = useState<1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11>(1);
   const [isDownloading, setIsDownloading] = useState(false);
   const [preparedNempoPng, setPreparedNempoPng] = useState<{
     url: string;
@@ -3635,6 +3637,16 @@ function App() {
             Q Card MC
           </button>
         </div>
+        {isGgsMen && ggsMenSlide === 11 && (
+          <div className="mb-3 flex justify-center">
+            <PrebuiltPngDownload
+              src={ggsMenTeaserSpesialPng.url}
+              fileName="GGS-Cowok-11-Something-Spesial.png"
+              label="Download PNG · 3×"
+              className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground hover:bg-primary/90"
+            />
+          </div>
+        )}
         {isGgsMen && ggsMenSlide === 10 && (
           <div className="mb-3 flex justify-center">
             <PrebuiltPngDownload
@@ -4403,7 +4415,7 @@ function App() {
         ) : isGarutBeans ? (
           <GarutBeansOpeningSlide key={garutBeansSlide} exportRef={exportRef} />
         ) : isGgsMen ? (
-          ggsMenSlide === 10 ? <GgsMenUndanganSlide exportRef={exportRef} /> : ggsMenSlide === 9 ? <GgsMenGiveawaySlide exportRef={exportRef} /> : ggsMenSlide === 8 ? <GgsMenPovSlide exportRef={exportRef} /> : ggsMenSlide === 7 ? <GgsMenCutCoverSlide exportRef={exportRef} lead="Two" tail="Block" photo={ggsMenTwoBlockPhoto.url} photoWidth={1478} photoHeight={1504} photoPosition="50% 30%" /> : ggsMenSlide === 6 ? <GgsMenColouringPromoSlide exportRef={exportRef} /> : ggsMenSlide === 5 ? <GgsMenPermPromoSlide exportRef={exportRef} /> : ggsMenSlide === 4 ? <GgsMenCutCoverSlide exportRef={exportRef} /> : ggsMenSlide === 3 ? <GgsMenDoubleDaySlide exportRef={exportRef} /> : ggsMenSlide === 2 ? <GgsMenContactSlide exportRef={exportRef} /> : <GgsMenHairCardsSlide exportRef={exportRef} />
+          ggsMenSlide === 11 ? <GgsMenTeaserSpesialSlide exportRef={exportRef} /> : ggsMenSlide === 10 ? <GgsMenUndanganSlide exportRef={exportRef} /> : ggsMenSlide === 9 ? <GgsMenGiveawaySlide exportRef={exportRef} /> : ggsMenSlide === 8 ? <GgsMenPovSlide exportRef={exportRef} /> : ggsMenSlide === 7 ? <GgsMenCutCoverSlide exportRef={exportRef} lead="Two" tail="Block" photo={ggsMenTwoBlockPhoto.url} photoWidth={1478} photoHeight={1504} photoPosition="50% 30%" /> : ggsMenSlide === 6 ? <GgsMenColouringPromoSlide exportRef={exportRef} /> : ggsMenSlide === 5 ? <GgsMenPermPromoSlide exportRef={exportRef} /> : ggsMenSlide === 4 ? <GgsMenCutCoverSlide exportRef={exportRef} /> : ggsMenSlide === 3 ? <GgsMenDoubleDaySlide exportRef={exportRef} /> : ggsMenSlide === 2 ? <GgsMenContactSlide exportRef={exportRef} /> : <GgsMenHairCardsSlide exportRef={exportRef} />
         ) : isGgsFeed ? (
           <ClientFeedArtwork
             exportRef={exportRef}
@@ -4443,7 +4455,7 @@ function App() {
         )}
         {isGgsMen && (
           <div className="mt-4 flex max-w-[94vw] items-center gap-1 overflow-x-auto rounded-full bg-[#062f4d] p-1 shadow-[0_8px_20px_rgba(0,40,78,0.2)]" aria-label="Pilih slide GGS Cowok">
-            {([1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const).map((slide) => (
+            {([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] as const).map((slide) => (
               <Button variant={ggsMenSlide === slide ? 'default' : 'ghost'} size="sm"
                 key={slide}
                 type="button"
