@@ -1,4 +1,3 @@
-import type React from 'react';
 import type { RefObject } from 'react';
 import { ChevronDown, MapPin, MessageCircle, Music2, UserPlus } from 'lucide-react';
 import gscLogo from '@/assets/good-story-cafe-logo.jpg';
@@ -7,34 +6,8 @@ import bgImage from '@/assets/nempo-feed-slide-50-bg.jpg';
 import frameImage from '@/assets/nempo-feed-50-stage-truss-frame.webp';
 import titleLettering from '@/assets/nempo-feed-50-title-graffiti-dj-large.png';
 import { nempoAjakRequest as P } from './nempo-ajak-request';
+import { STAGE_LAMPS as LAMPS, STAGE_SPOTS as SPOTS, stageLightStyle as lightStyle } from './nempo-stage-lights';
 import './NempoAjakRequestSlide.css';
-
-type Light = { x: number; y: number; a: number; tone: 'pink' | 'gold'; d: number };
-/** Moving-head spotlights on the truss frame (positions in cqw of the 3:4 artboard, a = aim in deg, 0 = straight down). */
-const SPOTS: Light[] = [
-  { x: 15.2, y: 6.9, a: -24, tone: 'pink', d: 0 },
-  { x: 28.6, y: 6.5, a: -10, tone: 'gold', d: -0.75 },
-  { x: 71.2, y: 6.5, a: 10, tone: 'gold', d: -1.5 },
-  { x: 83.8, y: 6.9, a: 24, tone: 'pink', d: -2.25 },
-  { x: 5.4, y: 24.3, a: -58, tone: 'gold', d: -0.5 },
-  { x: 5.6, y: 48.2, a: -70, tone: 'pink', d: -1.25 },
-  { x: 5.6, y: 78.6, a: -62, tone: 'gold', d: -2 },
-  { x: 94.6, y: 24.3, a: 58, tone: 'gold', d: -2.5 },
-  { x: 94.2, y: 48.2, a: 70, tone: 'pink', d: -1.75 },
-  { x: 93.8, y: 78.6, a: 62, tone: 'gold', d: -1 },
-];
-/** LED par cans and spotlight lenses that blink. */
-const LAMPS: Light[] = [
-  ...SPOTS,
-  { x: 38.2, y: 3.9, a: 0, tone: 'pink', d: -0.25 },
-  { x: 54.7, y: 3.9, a: 0, tone: 'pink', d: -0.75 },
-  { x: 4.3, y: 36.9, a: 0, tone: 'pink', d: -0.5 },
-  { x: 4.3, y: 64.2, a: 0, tone: 'gold', d: 0 },
-  { x: 95, y: 36.9, a: 0, tone: 'pink', d: 0 },
-  { x: 94.6, y: 64.2, a: 0, tone: 'gold', d: -0.5 },
-];
-const lightStyle = (l: Light) =>
-  ({ left: `${l.x}cqw`, top: `${l.y}cqw`, '--nar-a': `${l.a}deg`, animationDelay: `${l.d}s` }) as React.CSSProperties;
 
 /**
  * NEMPO Feed slide 51: same green stage + lighting-truss frame as slide 50, asking followers whom they will bring

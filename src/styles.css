@@ -2731,3 +2731,12 @@ html, body, #root {
   --nar-row-hot: linear-gradient(90deg, color-mix(in srgb, #ff5fc4 55%, transparent) 0%, color-mix(in srgb, #8a4dff 40%, transparent) 100%);
   --nar-row-glow: color-mix(in srgb, #ff5fc4 70%, transparent);
 }
+/* Nempo Feed slide 52: "Hari Ini!" day-of reminder on the same stage (shares the nsd-/nar- tokens above). */
+.nhi-root {
+  --nhi-headline-extrude: 0 .5cqw 0 #0a1a66, 0 1cqw 0 #0a1a66, 0 1.5cqw 0 #0a1a66, 0 2cqw 0 #071250, 0 3cqw 3.4cqw color-mix(in srgb, #04140a 60%, transparent);
+  --nhi-time-shadow: 0 .6cqw 0 #8f1408, 0 0 2cqw color-mix(in srgb, #ffe03a 35%, transparent);
+  --nhi-time-shadow-hot: 0 .6cqw 0 #8f1408, 0 0 4.5cqw color-mix(in srgb, #ffe03a 85%, transparent);
+  --nhi-end-shadow: 0 .5cqw 0 #d23f86, 0 0 2.4cqw color-mix(in srgb, #ff5fc4 70%, transparent);
+  --nhi-neon-gold: color-mix(in srgb, #ffd23a 55%, transparent);
+  --nhi-pill-glow: drop-shadow(0 0 1.6cqw color-mix(in srgb, #ffe46b 80%, transparent));
+}
