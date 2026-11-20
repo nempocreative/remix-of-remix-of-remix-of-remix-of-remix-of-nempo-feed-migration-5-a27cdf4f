@@ -32,14 +32,11 @@ describe('GGS Feed slide 61 teaser spesial', () => {
     expect(GGS_TEASER_SPESIAL.cta).toBe('Pantau terus & jangan lupa follow IG GGS ya!');
   });
 
-  it('shows a website sneak peek with the homepage and the Nail Art Panggilan page', () => {
-    expect(GGS_TEASER_SPESIAL.web.home.scheduleTitle).toBe('Jadwal kosong hari ini');
-    expect(GGS_TEASER_SPESIAL.web.nail.title).toBe('Nail Art Panggilan');
-    expect(GGS_TEASER_SPESIAL.web.nail.badge).toBe('Diskon');
+  it('shows a website sneak peek of the homepage and the Nail Art Panggilan page', () => {
+    expect(GGS_TEASER_SPESIAL.web.screens.map((screen) => screen.label)).toEqual(['Beranda', 'Nail Art Panggilan']);
   });
 
-  it('leaves the website address empty because GGS has no address yet', () => {
-    expect(GGS_TEASER_SPESIAL.web.address).toBe('');
+  it('mentions no website address because GGS has none yet', () => {
     expect(GGS_TEASER_SPESIAL_TEXT).not.toMatch(/https?:|www\.|\.com/);
   });
 });

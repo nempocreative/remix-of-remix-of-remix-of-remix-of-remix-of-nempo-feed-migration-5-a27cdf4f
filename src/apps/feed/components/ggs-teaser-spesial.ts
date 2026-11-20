@@ -12,38 +12,14 @@ export const GGS_TEASER_SPESIAL = {
     { key: 'more', text: 'Dan masih banyak lagi' },
   ],
   cta: 'Pantau terus & jangan lupa follow IG GGS ya!',
-  /** Sneak peek of the upcoming GGS website, drawn as two device screens. */
+  /** Sneak peek of the GGS website: the owner's own screenshots of two pages, shown on two tablets. */
   web: {
-    /** The owner has no website address yet, so the browser address bars stay empty. */
-    address: '',
     peek: 'Intip web barunya!',
-    home: {
-      brand: 'GGS Hair Studio',
-      nav: ['Layanan', 'Promo', 'Jadwal'],
-      kicker: 'Salon & Spa',
-      heading: 'Booking treatment jadi lebih gampang',
-      button: 'Booking sekarang',
-      scheduleTitle: 'Jadwal kosong hari ini',
-      slots: [
-        { time: '10.00', open: true },
-        { time: '11.00', open: false },
-        { time: '13.00', open: true },
-        { time: '14.00', open: true },
-        { time: '15.00', open: false },
-        { time: '16.00', open: true },
-      ],
-      promoTitle: 'Promo hari ini',
-      promos: ['Nail Art', 'Massage', 'Ratus'],
-      points: 'Poin kamu',
-    },
-    nail: {
-      title: 'Nail Art Panggilan',
-      subtitle: 'Kami datang ke rumahmu',
-      badge: 'Diskon',
-      note: 'Harga spesial hari ini',
-      button: 'Booking sekarang',
-    },
+    screens: [
+      { key: 'home', label: 'Beranda' },
+      { key: 'nail', label: 'Nail Art Panggilan' },
+    ],
   },
 } as const;
 
-export const GGS_TEASER_SPESIAL_TEXT = `${GGS_TEASER_SPESIAL.date}. ${GGS_TEASER_SPESIAL.title} ${GGS_TEASER_SPESIAL.audience}. ${GGS_TEASER_SPESIAL.benefits.map((item) => item.text).join('. ')}. ${GGS_TEASER_SPESIAL.web.peek} ${GGS_TEASER_SPESIAL.web.home.heading}. ${GGS_TEASER_SPESIAL.web.nail.title}: ${GGS_TEASER_SPESIAL.web.nail.badge}. ${GGS_TEASER_SPESIAL.cta}`;
+export const GGS_TEASER_SPESIAL_TEXT = `${GGS_TEASER_SPESIAL.date}. ${GGS_TEASER_SPESIAL.title} ${GGS_TEASER_SPESIAL.audience}. ${GGS_TEASER_SPESIAL.benefits.map((item) => item.text).join('. ')}. ${GGS_TEASER_SPESIAL.web.peek} ${GGS_TEASER_SPESIAL.web.screens.map((screen) => screen.label).join(' dan ')}. ${GGS_TEASER_SPESIAL.cta}`;
