@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "65d0445f-509e-456f-a0b9-c157f51fa5f6",
-  "project_id": "3063b878-8d66-4997-be79-40e71ca208ca",
-  "url": "/__l5e/assets-v1/65d0445f-509e-456f-a0b9-c157f51fa5f6/ggs-feed-61-something-spesial.png",
-  "r2_key": "a/v1/3063b878-8d66-4997-be79-40e71ca208ca/65d0445f-509e-456f-a0b9-c157f51fa5f6/ggs-feed-61-something-spesial.png",
-  "original_filename": "ggs-feed-61-something-spesial.png",
-  "size": 3738436,
   "content_type": "image/png",
-  "created_at": "2026-11-20T04:46:01Z"
+  "created_at": "2026-11-20T04:46:01Z",
+  "original_filename": "ggs-feed-61-something-spesial.png",
+  "project_id": "87ee66bc-51dc-4b3a-9f17-81898e818e2e",
+  "r2_key": "a/v1/87ee66bc-51dc-4b3a-9f17-81898e818e2e/65d0445f-509e-456f-a0b9-c157f51fa5f6/ggs-feed-61-something-spesial.png",
+  "size": 3738436,
+  "url": "/__l5e/assets-v1/65d0445f-509e-456f-a0b9-c157f51fa5f6/ggs-feed-61-something-spesial.png",
+  "version": 1
 }
