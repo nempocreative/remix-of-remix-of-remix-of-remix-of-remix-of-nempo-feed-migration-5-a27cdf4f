@@ -24,10 +24,10 @@ export function NempoHariIniSlide({ exportRef }: { exportRef?: RefObject<HTMLEle
       aria-label={`${title} & ${partner} ${headline} ${date.weekday}, ${date.day} ${date.month} ${date.year}, ${time.label} ${time.start} – ${time.end} di ${venue.name}`}
     >
       <img className="nar-bg" src={bgImage} alt="" aria-hidden="true" width={1088} height={1440} draggable={false} />
+      <span className="nar-beams" aria-hidden="true" />
       <span className="nar-glow" aria-hidden="true" />
       <span className="nar-spots" aria-hidden="true">
-        {/* No gold light beams here: the owner read them as floating yellow ribbons. */}
-        {STAGE_SPOTS.filter((l) => l.tone === 'pink').map((l, i) => (
+        {STAGE_SPOTS.map((l, i) => (
           <span key={i} className={`nar-beam nar-beam--${l.tone}`} style={stageLightStyle(l)} />
         ))}
       </span>
