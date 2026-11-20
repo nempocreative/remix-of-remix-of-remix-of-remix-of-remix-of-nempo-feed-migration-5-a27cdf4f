@@ -1,0 +1,119 @@
+# Roadmap
+
+- [x] NEMPO slide 49 revision: rebuild green one-DJ video from the re-uploaded photos (v2 was lost in the remix), replace video and cover, verify download
+
+- [x] NEMPO Feed slide 49: DJ portrait animation, matching video preview and MP4 download
+
+- [x] GGS Feed slide 52: check title and nail visibility, create sharp matching PNG, verify download
+
+- [x] NEMPO slide 46: add original Saduli logo from Bumper 3 and refresh PNG 3×
+- [x] NEMPO slide 46: natural real-cafe photo, simple line icons, refreshed typography and PNG 3×
+- [x] NEMPO Feed slide 46: Coming Soon Bajidoran & DJ, Good Story Cafe, Jumat 20 November 2026 — beda desain dari MusiComedy, PNG 3×
+- [x] GGS Cowok slide 10: undangan malam minggu, Perming Rp175.000 / Colouring Rp225.000, PNG 3× dan uji unduhan
+
+- [x] Masker (Hair Treatment) jadi 60.000
+- [x] Urutkan: Potong rambut dulu, baru Potong cuci catok
+- [x] Samakan ukuran font semua halaman, rapatkan jarak, naikkan konten
+- [x] Catok rambut sambung jadi 50.000
+- [x] Potong cuci catok jadi 85.000
+- [x] Potong cuci curly jadi 90.000
+- [x] Potong cuci blow jadi 85.000
+- [x] Section Khusus treatment anak jadi halaman sendiri (7 lembar)
+- [x] Perbarui PDF unduhan dengan teks tajam untuk cetak; periksa seluruh halaman dan tombol unduhan (8 halaman, vector text)
+- [x] Pulihkan 72 foto/video yang hilang setelah remix ke penyimpanan proyek ini
+- [x] Add Body Treatment page (waxing, bekam, lulur, masker) and "Body massage + bekam" bundling; regenerate 8-page print PDF
+- [x] Restore Tion Feed slides 1–12 (opens on slide 8) from github.com/nempocreative/organizer
+- [x] GGS Feed slide 23: replace photo with the owner's upload and animate the hands (sharp MP4 download)
+- [x] GGS Feed slide 29: hair treatment "mempercantik diri" with the owner's retouched salon photo + PNG download
+- [x] GGS Feed slide 29 v2: AI-made background behind the original (unchanged-face) people, no frames/shapes, re-capture PNG
+- [x] GGS Feed slide 30: Hari Pahlawan "hari ini" reminder with the owner's team flashlight photo + PNG download
+- [x] GGS Feed slide 30: remove the yellow "Hari Pahlawan" line; label "Berlaku sampai tanggal 10 November"
+- [ ] "Body massage + bekam" duration — waiting on owner
+- [x] GGS Feed slide 31: 11.11 Double Day Sale — diskon 10–30% all treatment, Nail 35.000 / Massage 85.000 / Ratus 45.000, PNG download
+- [x] Tion Feed slide 13: Roti'O "Momen Manis" promo video in slide 12 look, sharp MP4 download, working download button
+- [x] Tion Feed slide 14: Hoka Seru 3 + Beef Teriyaki promo video (Rp44.000 dari Rp56.500, -23%), sharp MP4 download
+- [x] NEMPO Feed slide 44: Hari Pahlawan "hari ini" video slide (Tugu Pahlawan + flag, animated text) with MP4/PNG download
+- [x] NEMPO Feed slide 44: creative but not tacky ("jangan alay") fonts; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: static text (no text animation), replace the lines beside the year, replace the italic serif font; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: more breathing room around the "81" chip; center the Hari Pahlawan title; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: smaller text with even spacing; re-record MP4/PNG
+- [x] NEMPO Feed slide 44: precise, even spacing for the bottom text block; re-record MP4/PNG
+- [x] NEMPO Feed slide 45: NEMPO customer service (layanan pelanggan) design with download
+- [x] NEMPO Feed slide 45: more attractive, no Telegram, emphasize EO / WO / Creative; re-capture PNG
+- [x] GGS Cowok slide 04: video cover "Burst Fade" with the owner's photo + PNG download
+- [x] GGS Cowok slide 04: more elegant cover, sharper photo, more creative lettering
+- [x] GGS Cowok slide 5: real GGS barbershop look — perm client sitting upright in the owner's maroon barber chair (photo built from the owner's chair photo), headline made readable again
+- [x] GGS Cowok slide 5: PNG download button (2880×3840, captured from the preview with the overlay composited at Lanczos 2×)
+- [x] GGS Cowok slide 5: owner dropped the video — photo only, fix the seated pose
+- [x] GGS Feed slide 32: Promo Nail Art 35.000 — hand on the GGS coaster, short natural (not fake) plain nails cycling through every swatch color from the owner's photos, MP4 download
+- [x] GGS Feed slide 33: Promo Nail Art Cat Eye 85.000 (dari 100.000) — same coaster hand as 32, 9 cat-eye colors from the owner's swatch photo with a sweeping magnetic streak, MP4 download
+- [x] GGS Feed slide 33: install the owner's reference-style glitter ombre cat-eye photo, retain color cycling, regenerate and verify the MP4 after remix
+- [x] GGS Feed slide 33: tighten the nail outline so color stays inside each nail, re-record MP4
+- [x] GGS Cowok slide 6: promo Colouring Rp200.000 with barber photo and sharp PNG download
+- [x] GGS Cowok slide 6 v2: one AI photo per hair colour (bright colours incl. maroon, kuning, pink, hijau toska) crossfading, with MP4 download
+- [x] GGS Cowok slide 6 v3: colour menu without any capsule/box, dots shrunk to 1.9cqw with cream+dark rings; MP4 re-recorded (504 frames stepped in ms) and re-uploaded
+- [x] GGS Cowok slide 6: download video flickered ahead of the preview — re-recorded with every frame checked against the preview timing
+- [x] GGS Feed slide 34: tidy headline/price alignment, show both hands and nails without footer overlap, regenerate and verify PNG
+- [x] GGS Feed slide 34: merge the photo into the background — full-bleed with a cream top fade, no framed block or divider line; PNG download re-captured and verified (2880×3840)
+- [x] GGS Feed slide 38: "Dibalik Rambut Berkilau" with the owner's hair photo, keep its original marble background, PNG download
+- [x] GGS Feed slide 39: 'Kuku Bagus Menawan dengan Nail Art', photo IMG_3197 with whitened fingers, PNG download
+- [x] GGS Feed slide 40: 'Kuku menarik' with the same photo IMG_3197 (original, only cleaned), PNG download
+- [x] GGS Feed slide 41: 'Merah mempesona' with the red-nails coaster photo (fingers whitened), PNG download
+- [x] GGS Feed slides 42–44: ratus education series (42 apa itu ratus + rempah, 43 manfaat ratus for people who don't know it yet, 44 cara + kapan ditunda), cool backgrounds, PNG downloads
+- [x] GGS Feed ratus education: show promo price Rp45.000 (only price) as the booking call-to-action
+- [x] GGS Feed slides 42 & 43: remove education text (owner request) — photo-only slides, recapture PNGs
+- [x] GGS Feed slide 44: remove education text too (owner request); keep Rp45.000 promo seal; recapture PNG
+- [x] GGS Feed slides 42–44: titles restored and text lowered away from the header
+- [x] GGS Feed slide 42: open with therapists Anggi & Deni (owner's photos, faces unchanged, AI batik outfits) looking curious "Aha, apa itu ratus?" with a ratus in the scene; education moved to 43–45
+- [x] GGS Feed slide 42: ratus burner shaped like the one on slide 43, better composition with Anggi & Deni
+- [x] GGS Cowok slide 08: "POV: lupa pakai kacamata" with the owner's barber photo sharpened (faces unchanged), PNG download
+- [x] GGS Feed slide 46: Promo Bekam Full Body (Rp140.000 → Rp110.000) on a transparent canvas, four PNG downloads (full-frame + small bottom strip, each promo-only and with GGS kop/kaki) for stacking on a video frame
+- [x] GGS Cowok slide 09: Give Away Day 5 with the owner's staff photo (hand showing five), photo quality improved without changing her face, PNG download
+- [x] GGS Feed slide 47: kenalan terapis Teh Anggi & Teh Siti (faces unchanged, pink blazers without logo) + promo Massage Rp85.000, PNG download
+- [x] GGS Story slide 07: kucing menari pakai baju India (tarian pemanggil customer) with music, MP4 download
+- [x] NEMPO Feed slide 47: reel 9:16 ~20 s — kucing, domba, kelinci bersanggul + baju adat Sunda menari, monyet main kendang; musik dangdut Bajidoran, goyang heboh; MP4 download
+- [x] NEMPO Feed slide 48: video 3:4 ukuran feed biasa, TANPA tulisan "Coming Soon" — ada yang nyawer, hewan cowok ditarik joget sama penari; MP4 download
+- [x] NEMPO Feed slide 48: video jadi 20 detik dan lebih lucu (sawer nempel di tanduk, goyang heboh, tanpa zoom, ujung nyambung halus ke awal); MP4 download diperbarui
+- [x] NEMPO Feed slide 49: use "NEMPO.ID" instead of "NEMPO FEED" and the same header as slides 46–48; video, cover and download re-rendered
+- [x] NEMPO Feed slide 49: remove the NEMPO logo at the end; vinyl-record icon instead of stars in the ticker
+- [x] NEMPO Feed slide 49: video starts with the DITYAR title, headline and photo already visible so the IG cover (first frame) is not empty
+- [x] NEMPO Feed slide 45: add a sharp, clear video (MP4) download button (12 s, 1080×1440, recorded at 2× and downscaled)
+- [x] GGS Feed slide 54: rambut berkilau + Santa mini (owner's long-hair photo, glossy, Santas styling like the reference), PNG download 3×
+- [x] GGS Feed slide 55: second owner hair photo, same glossy + Santa style, PNG download 3×
+- [x] GGS Feed slide 56: third owner hair photo, caramel balayage, same Santa Christmas theme, PNG download 3×
+- [x] GGS Santa hair slides: keep the owner's original salon background natural (no added lights/garland/decor) — redo slide 56 photo
+- [x] GGS Feed slide 57: fourth owner hair photo, glossy + Santa mini, original background kept natural, PNG download 3×
+- [x] GGS Feed slide 58: fifth owner hair photo, glossy + Santa mini, original background kept natural, PNG download 3×
+
+- [x] NEMPO Feed slide 50: poster Bajidoran & DJ (Saduli Ragap × DJ Dityar) + PNG 3×
+- [x] NEMPO Feed slide 50: use all Saduli performers from slide 31 (not the four dancers), heads clear of the name pill, PNG 3× recaptured
+
+- [x] NEMPO slide 50: remove blue "Saduli Ragap × DJ Dityar" ribbon, recapture PNG
+- [x] NEMPO slide 50: redesign Saduli Ragap / DJ Dityar name tags (nicer shape)
+- [x] NEMPO slide 50: dancer icon — not a star (theater-masks icon now)
+- [x] NEMPO slide 50: title "BAJIDORAN" lettering redo — graffiti/street lettering, alternating tall-short letters, small "& DJ" tucked under; PNG 3× recaptured
+- [x] NEMPO slide 50: enlarge DJ, use the tilted DJ photo without a black shadow, recapture PNG 3×
+- [x] NEMPO slide 50: enlarge the “& DJ” lettering within the graffiti title, recapture PNG 3×
+- [x] NEMPO slide 50: move the title slightly lower, recapture PNG 3×
+- [x] NEMPO slide 50: new, more interesting frame design (not the leaves/clouds instrument frame), recapture PNG 3×
+
+- [x] GGS Feed slide 59: video pilihan model rambut (owner's photo, face unchanged, only hair changes), MP4 download
+- [x] GGS Feed slide 59: add more trending hairstyles (Hush Cut, Hime Cut, Octopus Cut, Korean C-Curl) beside Butterfly
+
+- [x] NEMPO Feed slide 51: same frame as slide 50 — "Mau ajak siapa? Tulis di kolom komentar" + request song list (Helikopter, Negoro Angin, Hatimu Aduh, Singkong dan Keju, Kopi Susu), MP4 download (replaces PNG since the lights now move)
+- [x] NEMPO Feed slide 51: frame lights come alive (moving spotlight beams, blinking lamps, neon chase), seamless loop, MP4 download
+- [x] NEMPO Feed slide 51: "Mau ajak siapa?" readable — dark outline behind the yellow letters, MP4 re-recorded (6 s, 1080×1440)
+
+- [x] GGS Feed slide 53: text "POV: Playlist yang diputar kalau gak ada owner", star badge replaced by scissors, transparent PNG 3× recaptured
+- [x] Garut Beans tab: opening post slide 01 (logo, "Panen rasa dari Garut.", 3 coffee bags), kicker spacing fixed, Download PNG 3× (3240×4320) captured, uploaded and verified
+- [x] Garut Beans slide 01: redesigned as logo-philosophy post (huruf G = Garut, biji kopi, daun emas — owner confirmed), PNG 3× recaptured and download verified
+- [x] Garut Beans slide 01 revisions: top kicker + brand name removed, logo clear of text, headline "Filosofi Logo", new heading font, footer with tagline + IG @garutbeans + NEMPO WhatsApp; PNG 3× recaptured, download verified
+- [x] Garut Beans slide 01 footer tagline: font swapped to Cormorant Garamond italic on two hand-balanced lines, footer band raised so the contact pills are no longer clipped at the slide edge; PNG 3× recaptured, download verified byte-identical
+- [x] Garut Beans slide 01: tagline balik ke font Caveat, lebih kecil, rata kanan ke pill WhatsApp; PNG unduhan direkam ulang
+- [x] Garut Beans slide 01: tagline satu baris lurus, diperkecil biar ujung kanannya pas sama ujung pill WhatsApp; PNG unduhan direkam ulang
+- [x] GGS Feed slide 60: promo akhir tahun (kuku asli 185.000→135.000, kuku palsu 250.000→195.000, 18 Nov–31 Des 2026) gaya stiker slide 53; PNG transparan 3240×4320 diunduh
+- [x] GGS Feed slide 60: unduhan disamakan dengan slide 53 (satu PNG transparan 3240×4320)
+- [x] GGS Feed slide 60: teks jadi "Treatment Rambut Bercabang" + "Hempas Rambut Bercabang", tanpa harga — "Promo 10–30%" dan "S&K berlaku"; PNG transparan recapture
+- [x] GGS Feed slide 61: teaser besok 20 November 2026 — booking, jadwal kosong, promo harian, poin spesial, follow IG; PNG 3× dan uji unduhan
+- [x] GGS Feed slide 61: baris atas "BESOK • 20 NOVEMBER 2026" dihapus semua (judul naik), font "Something" jadi Shrikhand, ikon bintang diganti mahkota; PNG 3× recapture + uji unduhan
+- [x] GGS Feed slide 62: "We are open" di atas foto treatment, nama GGS Beauty; baris merek dipindah ke atas ajakan supaya tidak tertutup logo; PNG 3× direkam + uji unduhan
