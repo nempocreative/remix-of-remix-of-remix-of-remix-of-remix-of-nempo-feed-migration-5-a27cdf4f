@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "4330a9a6-dda9-44ac-ba40-d64e1f84fabc",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/4330a9a6-dda9-44ac-ba40-d64e1f84fabc/nempo-kalamuda-akustik.webp",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/4330a9a6-dda9-44ac-ba40-d64e1f84fabc/nempo-kalamuda-akustik.webp",
-  "original_filename": "nempo-kalamuda-akustik.webp",
-  "size": 63078,
   "content_type": "image/webp",
-  "created_at": "2026-11-20T02:44:48Z"
+  "created_at": "2026-11-20T02:44:48Z",
+  "original_filename": "nempo-kalamuda-akustik.webp",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/4330a9a6-dda9-44ac-ba40-d64e1f84fabc/nempo-kalamuda-akustik.webp",
+  "size": 63078,
+  "url": "/__l5e/assets-v1/4330a9a6-dda9-44ac-ba40-d64e1f84fabc/nempo-kalamuda-akustik.webp",
+  "version": 1
 }

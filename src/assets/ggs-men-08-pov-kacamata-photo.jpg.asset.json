@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "fde0ed81-e523-41dc-b509-de9b0b638ec4",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/fde0ed81-e523-41dc-b509-de9b0b638ec4/ggs-men-08-pov-kacamata-photo.jpg",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/fde0ed81-e523-41dc-b509-de9b0b638ec4/ggs-men-08-pov-kacamata-photo.jpg",
-  "original_filename": "ggs-men-08-pov-kacamata-photo.jpg",
-  "size": 1662538,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-20T02:43:17Z"
+  "created_at": "2026-11-20T02:43:17Z",
+  "original_filename": "ggs-men-08-pov-kacamata-photo.jpg",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/fde0ed81-e523-41dc-b509-de9b0b638ec4/ggs-men-08-pov-kacamata-photo.jpg",
+  "size": 1662538,
+  "url": "/__l5e/assets-v1/fde0ed81-e523-41dc-b509-de9b0b638ec4/ggs-men-08-pov-kacamata-photo.jpg",
+  "version": 1
 }

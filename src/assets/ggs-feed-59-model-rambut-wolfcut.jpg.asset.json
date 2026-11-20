@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "c8f7ea96-adcc-4b08-8dc5-0deef21117ba",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/c8f7ea96-adcc-4b08-8dc5-0deef21117ba/ggs-feed-59-model-rambut-wolfcut.jpg",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/c8f7ea96-adcc-4b08-8dc5-0deef21117ba/ggs-feed-59-model-rambut-wolfcut.jpg",
-  "original_filename": "ggs-feed-59-model-rambut-wolfcut.jpg",
-  "size": 606860,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-20T02:43:08Z"
+  "created_at": "2026-11-20T02:43:08Z",
+  "original_filename": "ggs-feed-59-model-rambut-wolfcut.jpg",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/c8f7ea96-adcc-4b08-8dc5-0deef21117ba/ggs-feed-59-model-rambut-wolfcut.jpg",
+  "size": 606860,
+  "url": "/__l5e/assets-v1/c8f7ea96-adcc-4b08-8dc5-0deef21117ba/ggs-feed-59-model-rambut-wolfcut.jpg",
+  "version": 1
 }

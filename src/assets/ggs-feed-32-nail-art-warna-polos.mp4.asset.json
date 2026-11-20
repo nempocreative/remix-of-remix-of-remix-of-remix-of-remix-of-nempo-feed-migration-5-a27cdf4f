@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "85365f95-1a9e-4553-be43-6965e6b11090",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/85365f95-1a9e-4553-be43-6965e6b11090/ggs-feed-32-nail-art-warna-polos.mp4",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/85365f95-1a9e-4553-be43-6965e6b11090/ggs-feed-32-nail-art-warna-polos.mp4",
-  "original_filename": "ggs-feed-32-nail-art-warna-polos.mp4",
-  "size": 2817302,
   "content_type": "video/mp4",
-  "created_at": "2026-11-20T02:41:49Z"
+  "created_at": "2026-11-20T02:41:49Z",
+  "original_filename": "ggs-feed-32-nail-art-warna-polos.mp4",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/85365f95-1a9e-4553-be43-6965e6b11090/ggs-feed-32-nail-art-warna-polos.mp4",
+  "size": 2817302,
+  "url": "/__l5e/assets-v1/85365f95-1a9e-4553-be43-6965e6b11090/ggs-feed-32-nail-art-warna-polos.mp4",
+  "version": 1
 }

@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "10003947-9e73-49ef-89c9-0d7504e49e7c",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/10003947-9e73-49ef-89c9-0d7504e49e7c/ggs-feed-59-model-rambut-wavy.jpg",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/10003947-9e73-49ef-89c9-0d7504e49e7c/ggs-feed-59-model-rambut-wavy.jpg",
-  "original_filename": "ggs-feed-59-model-rambut-wavy.jpg",
-  "size": 733685,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-20T02:42:58Z"
+  "created_at": "2026-11-20T02:42:58Z",
+  "original_filename": "ggs-feed-59-model-rambut-wavy.jpg",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/10003947-9e73-49ef-89c9-0d7504e49e7c/ggs-feed-59-model-rambut-wavy.jpg",
+  "size": 733685,
+  "url": "/__l5e/assets-v1/10003947-9e73-49ef-89c9-0d7504e49e7c/ggs-feed-59-model-rambut-wavy.jpg",
+  "version": 1
 }

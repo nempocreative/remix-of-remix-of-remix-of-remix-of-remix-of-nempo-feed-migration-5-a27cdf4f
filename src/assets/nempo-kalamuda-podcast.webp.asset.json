@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "85485074-d268-4cf3-91d4-afde88c66b94",
-  "project_id": "c27d32ba-8fd2-402f-b0dd-60f093b0a9f7",
-  "url": "/__l5e/assets-v1/85485074-d268-4cf3-91d4-afde88c66b94/nempo-kalamuda-podcast.webp",
-  "r2_key": "a/v1/c27d32ba-8fd2-402f-b0dd-60f093b0a9f7/85485074-d268-4cf3-91d4-afde88c66b94/nempo-kalamuda-podcast.webp",
-  "original_filename": "nempo-kalamuda-podcast.webp",
-  "size": 182432,
   "content_type": "image/webp",
-  "created_at": "2026-11-20T02:44:58Z"
+  "created_at": "2026-11-20T02:44:58Z",
+  "original_filename": "nempo-kalamuda-podcast.webp",
+  "project_id": "46465345-520d-4508-afc6-ace0615ae638",
+  "r2_key": "a/v1/46465345-520d-4508-afc6-ace0615ae638/85485074-d268-4cf3-91d4-afde88c66b94/nempo-kalamuda-podcast.webp",
+  "size": 182432,
+  "url": "/__l5e/assets-v1/85485074-d268-4cf3-91d4-afde88c66b94/nempo-kalamuda-podcast.webp",
+  "version": 1
 }
