@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "0ed9ec52-7999-4d7d-ac64-39d4703f2a11",
-  "project_id": "78ee1b12-13ae-4897-8222-262cf1600509",
-  "url": "/__l5e/assets-v1/0ed9ec52-7999-4d7d-ac64-39d4703f2a11/nempo-logo.webp",
-  "r2_key": "a/v1/78ee1b12-13ae-4897-8222-262cf1600509/0ed9ec52-7999-4d7d-ac64-39d4703f2a11/nempo-logo.webp",
-  "original_filename": "nempo-logo.webp",
-  "size": 32918,
   "content_type": "image/webp",
-  "created_at": "2026-11-20T06:49:06Z"
+  "created_at": "2026-11-20T06:49:06Z",
+  "original_filename": "nempo-logo.webp",
+  "project_id": "102f7255-38a8-45ac-9f17-4db27b9215a0",
+  "r2_key": "a/v1/102f7255-38a8-45ac-9f17-4db27b9215a0/0ed9ec52-7999-4d7d-ac64-39d4703f2a11/nempo-logo.webp",
+  "size": 32918,
+  "url": "/__l5e/assets-v1/0ed9ec52-7999-4d7d-ac64-39d4703f2a11/nempo-logo.webp",
+  "version": 1
 }

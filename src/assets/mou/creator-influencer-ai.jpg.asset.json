@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "59681899-1c47-4b67-940e-323e505bd505",
-  "project_id": "78ee1b12-13ae-4897-8222-262cf1600509",
-  "url": "/__l5e/assets-v1/59681899-1c47-4b67-940e-323e505bd505/creator-influencer-ai.jpg",
-  "r2_key": "a/v1/78ee1b12-13ae-4897-8222-262cf1600509/59681899-1c47-4b67-940e-323e505bd505/creator-influencer-ai.jpg",
-  "original_filename": "creator-influencer-ai.jpg",
-  "size": 108445,
   "content_type": "image/jpeg",
-  "created_at": "2026-11-20T06:48:54Z"
+  "created_at": "2026-11-20T06:48:54Z",
+  "original_filename": "creator-influencer-ai.jpg",
+  "project_id": "102f7255-38a8-45ac-9f17-4db27b9215a0",
+  "r2_key": "a/v1/102f7255-38a8-45ac-9f17-4db27b9215a0/59681899-1c47-4b67-940e-323e505bd505/creator-influencer-ai.jpg",
+  "size": 108445,
+  "url": "/__l5e/assets-v1/59681899-1c47-4b67-940e-323e505bd505/creator-influencer-ai.jpg",
+  "version": 1
 }

@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "7c0ead13-ec41-4a6c-8c02-d4ad8ba47c78",
-  "project_id": "78ee1b12-13ae-4897-8222-262cf1600509",
-  "url": "/__l5e/assets-v1/7c0ead13-ec41-4a6c-8c02-d4ad8ba47c78/nempo-mark.png",
-  "r2_key": "a/v1/78ee1b12-13ae-4897-8222-262cf1600509/7c0ead13-ec41-4a6c-8c02-d4ad8ba47c78/nempo-mark.png",
-  "original_filename": "nempo-mark.png",
-  "size": 106129,
   "content_type": "image/png",
-  "created_at": "2026-11-20T06:48:42Z"
+  "created_at": "2026-11-20T06:48:42Z",
+  "original_filename": "nempo-mark.png",
+  "project_id": "102f7255-38a8-45ac-9f17-4db27b9215a0",
+  "r2_key": "a/v1/102f7255-38a8-45ac-9f17-4db27b9215a0/7c0ead13-ec41-4a6c-8c02-d4ad8ba47c78/nempo-mark.png",
+  "size": 106129,
+  "url": "/__l5e/assets-v1/7c0ead13-ec41-4a6c-8c02-d4ad8ba47c78/nempo-mark.png",
+  "version": 1
 }
