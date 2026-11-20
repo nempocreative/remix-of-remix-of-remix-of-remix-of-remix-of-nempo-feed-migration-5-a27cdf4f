@@ -1,11 +1,7 @@
 import { type ReactNode } from 'react';
 import { Printer } from 'lucide-react';
-import { Link } from '@tanstack/react-router';
 import { Button } from '@/components/ui/button';
 import mark from '@/assets/mou/nempo-mark.png.asset.json';
-import RundownGrandOpeningPage from '@/apps/mou/pages/rundown-grand-opening';
-import NasutionBoyPage from '@/apps/mou/pages/nasution-boy';
-import NempoKenalanPage from '@/apps/mou/pages/nempo-kenalan';
 
 const totalPages = 4;
 
@@ -393,70 +389,26 @@ function DocPageFooter({ page }: { page: number }) {
   );
 }
 
-function AppHeader({
-  activePage,
-  printLabel,
-  onPrint,
-  showPrint = true,
-}: {
-  activePage: 'mou' | 'rundown' | 'nasution-boy' | 'kenalan';
-  printLabel: string;
-  onPrint?: () => void;
-  showPrint?: boolean;
-}) {
+function AppHeader() {
   return (
     <header className="topbar no-print">
       <div className="brand">
-        <img
-          className="brand-logo"
-          src={mark.url}
-          alt="Logo Nempo"
-        />
+        <img className="brand-logo" src={mark.url} alt="Logo Nempo" />
         <div>Nempo</div>
       </div>
-      <nav className="top-navigation" aria-label="Halaman dokumen">
-        <Link
-          to="/nempo-mou"
-          className={`app-nav-link${activePage === 'mou' ? ' is-active' : ''}`}
-          aria-current={activePage === 'mou' ? 'page' : undefined}
+      <div className="top-actions">
+        <Button
+          variant="unstyled"
+          size="unstyled"
+          className="button primary"
+          onClick={() => window.print()}
+          title="Cetak atau simpan sebagai PDF"
+          aria-label="Cetak atau simpan MoU sebagai PDF"
         >
-          MOU
-        </Link>
-        <Link
-          to="/nempo-mou/rundown-grand-opening"
-          className={`app-nav-link${activePage === 'rundown' ? ' is-active' : ''}`}
-          aria-current={activePage === 'rundown' ? 'page' : undefined}
-        >
-          Rundown
-        </Link>
-        <Link
-          to="/nempo-mou/nasution-boy"
-          className={`app-nav-link${activePage === 'nasution-boy' ? ' is-active' : ''}`}
-          aria-current={activePage === 'nasution-boy' ? 'page' : undefined}
-        >
-          Nasution Boy
-        </Link>
-        <Link
-          to="/nempo-mou/kenalan"
-          className={`app-nav-link${activePage === 'kenalan' ? ' is-active' : ''}`}
-          aria-current={activePage === 'kenalan' ? 'page' : undefined}
-        >
-          Kenalan Nempo
-        </Link>
-      </nav>
-      {showPrint && (
-        <div className="top-actions">
-          <Button variant="unstyled"
-            className="button primary"
-            onClick={onPrint ?? (() => window.print())}
-            title="Cetak atau simpan sebagai PDF"
-            aria-label={printLabel}
-          >
-            <Printer size={14} />
-            <span>Simpan PDF</span>
-          </Button>
-        </div>
-      )}
+          <Printer size={14} />
+          <span>Simpan PDF</span>
+        </Button>
+      </div>
     </header>
   );
 }
@@ -464,7 +416,7 @@ function AppHeader({
 function MouPage() {
   return (
     <div className="app-shell">
-      <AppHeader activePage="mou" printLabel="Cetak atau simpan MOU sebagai PDF" />
+      <AppHeader />
 
       <main className="workspace preview-only no-print">
         <div className="preview-column">
@@ -479,50 +431,6 @@ function MouPage() {
   );
 }
 
-function RundownPage() {
-  return (
-    <div className="app-shell rundown-app-shell">
-      <AppHeader activePage="rundown" printLabel="Cetak atau simpan rundown sebagai PDF" />
-      <RundownGrandOpeningPage />
-    </div>
-  );
-}
-
-function NasutionBoyRoute() {
-  return (
-    <div className="app-shell nasution-boy-app-shell">
-      <AppHeader
-        activePage="nasution-boy"
-        printLabel="Cetak atau simpan storyline Nasution Boy sebagai PDF"
-        onPrint={() => {
-          void import('@/apps/mou/lib/nasution-boy-pdf')
-            .then(({ downloadNasutionBoyPdf }) => downloadNasutionBoyPdf())
-            .catch((error) => {
-              console.error('Gagal membuat PDF storyline:', error);
-              window.alert('PDF storyline gagal diunduh. Silakan coba lagi.');
-            });
-        }}
-      />
-      <NasutionBoyPage />
-    </div>
-  );
-}
-
-function KenalanRoute() {
-  return (
-    <div className="app-shell kenalan-app-shell">
-      <AppHeader
-        activePage="kenalan"
-        printLabel="Simpan presentasi Nempo sebagai PDF"
-        showPrint={false}
-      />
-      <NempoKenalanPage />
-    </div>
-  );
-}
-
-export type MouPageKey = 'mou' | 'rundown' | 'nasution-boy' | 'kenalan';
-export default function App({ page = 'mou' }: { page?: MouPageKey }) {
-  const Page = page === 'rundown' ? RundownPage : page === 'nasution-boy' ? NasutionBoyRoute : page === 'kenalan' ? KenalanRoute : MouPage;
-  return <div className="mou-scope"><Page /></div>;
+export default function App() {
+  return <div className="mou-scope"><MouPage /></div>;
 }

@@ -80,84 +80,35 @@
     }
   ],
   "mou": {
-    "source": "github.com/nempocreative/organizer artifacts/nempo-mou + lib/nempo-kenalan-deck",
+    "source": "github.com/nempocreative/organizer artifacts/nempo-mou",
     "capabilities": [
       {
         "capability": "code",
-        "source": "Four static React document pages and sixteen presentation slides",
+        "source": "MoU Nempo × GGS Beauty (4 printable A4 pages)",
         "outcome": "migrate",
-        "status": "in_progress",
-        "next_action": "Mount at /nempo-mou"
-      },
-      {
-        "capability": "schema",
-        "source": "No database call sites in MoU section",
-        "outcome": "not_applicable",
         "status": "verified",
         "next_action": "none"
       },
       {
-        "capability": "records",
-        "source": "Document text is bundled source",
-        "outcome": "migrate",
-        "status": "in_progress",
-        "next_action": "Preserve literal content"
-      },
-      {
-        "capability": "auth identities",
-        "source": "No authentication in MoU section",
-        "outcome": "not_applicable",
-        "status": "verified",
-        "next_action": "none"
-      },
-      {
-        "capability": "authorization",
-        "source": "Public documents in source",
-        "outcome": "preserve",
-        "status": "verified",
-        "next_action": "none"
+        "capability": "other pages (Rundown Grand Opening, Nasution Boy storyline + PDF, Kenalan deck)",
+        "source": "same artifact",
+        "outcome": "skipped_by_owner",
+        "status": "accepted",
+        "next_action": "Owner asked for the MoU only; migrate later on request"
       },
       {
         "capability": "uploaded file bytes",
-        "source": "Logo and six deck photos",
+        "source": "Nempo mark logo",
         "outcome": "migrate",
-        "status": "pending",
-        "next_action": "Upload project-scoped media"
-      },
-      {
-        "capability": "external providers",
-        "source": "Google Fonts and public social links",
-        "outcome": "preserve",
-        "status": "pending",
-        "next_action": "Verify links and font loading"
-      },
-      {
-        "capability": "public endpoints",
-        "source": "Four document URLs; no callbacks/webhooks/schedules",
-        "outcome": "migrate",
-        "status": "pending",
-        "next_action": "Verify routes"
-      },
-      {
-        "capability": "secrets",
-        "source": "None required by section",
-        "outcome": "not_applicable",
         "status": "verified",
         "next_action": "none"
       },
       {
-        "capability": "cutover",
-        "source": "Source organizer deployment",
-        "outcome": "user_decision",
-        "status": "pending",
-        "next_action": "Publish when ready"
-      },
-      {
         "capability": "verification",
-        "source": "Print, PDF download, MC Q cards and slide navigation",
+        "source": "/nempo-mou loads on desktop and phone without errors; print gives 4 A4 pages with text",
         "outcome": "verify",
-        "status": "pending",
-        "next_action": "Browser checks"
+        "status": "verified",
+        "next_action": "none"
       }
     ]
   }
